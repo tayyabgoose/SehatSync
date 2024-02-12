@@ -1,1 +1,3 @@
-# Sehat-Sync---Web-Programming
+# SehatSync - Medicine Tracker
+Web Programming
+Semester Project
