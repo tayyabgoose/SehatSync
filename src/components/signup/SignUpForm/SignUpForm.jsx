@@ -1,67 +1,24 @@
-import React from "react";
-import "./App.css";
 import "./form.css";
-import icon from "../assets/Logo.svg";
-import apple from "../assets/apple.svg";
-import fb from "../assets/fb.svg";
-import google from "../assets/google.svg";
-import passcode from "../assets/Passcode.svg";
-import mail from "../assets/mail.svg";
+import apple from "../../../assets/apple.svg";
+import fb from "../../../assets/fb.svg";
+import google from "../../../assets/google.svg";
+import passcode from "../../../assets/passcode.svg";
+import mail from "../../../assets/mail.svg";
+import BigText from "../BigText";
 
-export function Nav_Bar() {
-  return (
-    <>
-      <div className="nav">
-        <div className="navbar">
-          <div className="logo_cont">
-            <img src={icon}></img>
-            <span className="logo">
-              Sehat<span className="lasthalf">Sync</span>
-            </span>
-          </div>
-
-          <div className="mid-container">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Blog</a>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
-
-export function Big_text() {
-  return (
-    <>
-      <div className="t1">
-        <div className="big_text">
-          <div>Make Your</div>
-          <div>
-            <span>SehatSync</span>Account
-          </div>
-        </div>
-        <div className="small_text">
-          Your path to easier health management!{" "}
-        </div>
-      </div>
-    </>
-  );
-}
-
-export function SignInForm() {
+export default function SignUpForm() {
   return (
     <>
       <div className="main_container">
         <div className="Whole_cont">
-          <Big_text />
+          <BigText />
           <form>
             <fieldset>
               <div className="cont">
                 <label for="Email">Email</label>
                 <div className="input_fields">
                   <img src={mail} />
-                  <input type="email" placeholder="karam@sehatsync.com" />
+                  <input type="email" placeholder="tayyab@sehatsync.com" />
                 </div>
               </div>
 
