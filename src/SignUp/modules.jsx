@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import "./form.css";
-import icon from "./assets/Logo.svg";
-import apple from "./assets/apple.svg";
-import fb from "./assets/fb.svg";
-import google from "./assets/google.svg";
-import passcode from "./assets/Passcode.svg";
-import mail from "./assets/mail.svg";
+import icon from "../assets/Logo.svg";
+import apple from "../assets/apple.svg";
+import fb from "../assets/fb.svg";
+import google from "../assets/google.svg";
+import passcode from "../assets/Passcode.svg";
+import mail from "../assets/mail.svg";
 
 export function Nav_Bar() {
   return (
