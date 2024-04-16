@@ -7,11 +7,7 @@ import mail from "../../assets/mail.svg";
 import BigText from "./BigText";
 import { Link } from 'react-router-dom';
 
-export default function SignUpForm({ onSwitchForm }) {
-  const handleSwitch = () => {
-    onSwitchForm();
-  };
-
+export default function SignUpForm() {
   return (
     <>
       <div className="main_container">
@@ -51,7 +47,6 @@ export default function SignUpForm({ onSwitchForm }) {
                 Already have an account?
                 <span className="subtext">
                 <Link to='/login'>Login</Link>
-                  {/* <a href="#" onClick={handleSwitch}>Login</a> */}
                 </span>
                 instead.
               </div>
