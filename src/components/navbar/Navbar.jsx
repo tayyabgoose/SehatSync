@@ -1,5 +1,6 @@
 import "./navbar.css";
 import icon from "../../assets/logo.svg";
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
@@ -14,9 +15,9 @@ export default function NavBar() {
           </div>
 
           <div className="mid-container">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Blog</a>
+          <Link to='/aboutus'>AboutUs</Link>
+          <Link to='/blog'>Blog</Link>
+          <Link to='home'>Home</Link>
           </div>
         </div>
       </div>
