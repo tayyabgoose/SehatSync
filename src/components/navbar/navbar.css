@@ -98,7 +98,10 @@
   gap: 5px;
   padding-left: 30px;
 }
-
+.logo_cont a{
+  text-decoration: none;
+  color: black;
+}
 
 .t1 {
   display: flex;

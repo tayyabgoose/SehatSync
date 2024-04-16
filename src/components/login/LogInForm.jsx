@@ -5,6 +5,7 @@ import google from "../../assets/google.svg";
 import passcode from "../../assets/passcode.svg";
 import mail from "../../assets/mail.svg";
 import BigText from "../signup/BigText.jsx";
+import { Link } from 'react-router-dom';
 
 export default function LogInForm({ onSwitchForm }) {
   const handleSwitch = () => {
@@ -36,7 +37,8 @@ export default function LogInForm({ onSwitchForm }) {
               <div className="main_text">
                 Don't have an account?
                 <span className="subtext">
-                  <a href="#" onClick={handleSwitch}>Signup</a>
+                  <Link to='/'>Sign Up</Link>
+                  {/* <a href="#" onClick={handleSwitch}>Signup</a> */}
                 </span>
                 instead.
               </div>

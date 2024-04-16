@@ -9,9 +9,11 @@ export default function NavBar() {
         <div className="navbar">
           <div className="logo_cont">
             <img src={icon} />
+            <Link to='/'>
             <span className="logo">
               Sehat<span className="lasthalf">Sync</span>
             </span>
+            </Link>
           </div>
 
           <div className="mid-container">

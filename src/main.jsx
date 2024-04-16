@@ -31,6 +31,7 @@ const App = () => {
         <NavBar />
       <div>
         <Routes>
+          <Route path="/login" element={<LogInForm />} />
           <Route path="/" element={< SignUpForm/>} />
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/home" element={<Home />} />
