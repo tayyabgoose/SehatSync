@@ -1,4 +1,4 @@
-import "../../pages/signup/signup.css";
+import "./navbar.css";
 import icon from "../../assets/logo.svg";
 
 export default function NavBar() {

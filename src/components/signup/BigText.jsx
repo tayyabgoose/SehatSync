@@ -1,4 +1,4 @@
-import  "../../pages/signup/signup.css";
+import  "./navbar.css";
 
 export default function BigText() {
     return (
