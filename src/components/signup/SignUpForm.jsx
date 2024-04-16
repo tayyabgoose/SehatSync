@@ -1,15 +1,16 @@
-import "../../signup/SignUpForm/form.css";
-import apple from "../../../assets/apple.svg";
-import fb from "../../../assets/fb.svg";
-import google from "../../../assets/google.svg";
-import passcode from "../../../assets/passcode.svg";
-import mail from "../../../assets/mail.svg";
-import BigText from "../../signup/BigText.jsx";
+import "./form.css";
+import apple from "../../assets/apple.svg";
+import fb from "../../assets/fb.svg";
+import google from "../../assets/google.svg";
+import passcode from "../../assets/passcode.svg";
+import mail from "../../assets/mail.svg";
+import BigText from "./BigText";
 
-export default function LogInForm({ onSwitchForm }) {
+export default function SignUpForm({ onSwitchForm }) {
   const handleSwitch = () => {
     onSwitchForm();
   };
+
   return (
     <>
       <div className="main_container">
@@ -26,7 +27,19 @@ export default function LogInForm({ onSwitchForm }) {
               </div>
 
               <div className="m1_cont">
-                <label for="Password">Password</label>
+                <label for="Password">Enter Password</label>
+                <div className="input_fields">
+                  <img src={passcode} />
+                  <input type="password" placeholder="********" />
+                </div>
+                <div className="sub_t">
+                  The password must be 8-16 characters long, with at least one
+                  special character and number.
+                </div>
+              </div>
+
+              <div className="cont">
+                <label for="Confirm Password">Confirm Password</label>
                 <div className="input_fields">
                   <img src={passcode} />
                   <input type="password" placeholder="********" />
@@ -34,14 +47,14 @@ export default function LogInForm({ onSwitchForm }) {
               </div>
 
               <div className="main_text">
-                Don't have an account?
+                Already have an account?
                 <span className="subtext">
-                  <a href="#" onClick={handleSwitch}>Signup</a>
+                  <a href="#" onClick={handleSwitch}>Login</a>
                 </span>
                 instead.
               </div>
               <button type="submit" className="btn_sign_up">
-                Log In
+                Sign Up
               </button>
 
               <div className="t2">Use Social Login</div>

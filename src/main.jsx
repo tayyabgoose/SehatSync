@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
-import LogInForm from "./components/login/LogInForm/LogInForm.jsx";
-import SignUpForm from "./components/signup/SignUpForm/SignUpForm.jsx";
-import NavBar from "./components/signup/Navbar.jsx";
+import LogInForm from "./components/login/LogInForm.jsx";
+import SignUpForm from "./components/signup/SignUpForm.jsx";
+import NavBar from "./components/navbar/Navbar.jsx";
+import AboutUs from "./components/aboutus/AboutUs.jsx";
 
 const App = () => {
   const [showSignUp, setShowSignUp] = useState(true);
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <React.StrictMode>
       <NavBar />
+      {/* <AboutUs/> */}
       {showSignUp ? (
         <SignUpForm onSwitchForm={handleSwitchForm} />
       ) : (

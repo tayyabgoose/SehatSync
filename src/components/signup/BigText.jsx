@@ -1,4 +1,4 @@
-import  "./navbar.css";
+import  "../navbar/navbar.css";
 
 export default function BigText() {
     return (
