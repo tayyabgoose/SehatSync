@@ -168,11 +168,3 @@ select:focus,
 button:focus {
   outline: none;
 }
-
-.cont:focus,
-.m1_cont:focus,
-.social:focus {
-    background: var(--White, #FFF);
-/* Shadow/xs focused 4px gray-100 */
-box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F2F4F7;
-  }
