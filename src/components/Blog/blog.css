@@ -1,0 +1,23 @@
+.blog-card {
+  height: 374;
+  width: 314;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 13px;
+  margin: 28px;
+}
+
+.blog-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 54px;
+}
+
+.blog-card img {
+  border-radius: 10px;
+}
+
+.blog-card span {
+  padding: 10px 0;
+}
