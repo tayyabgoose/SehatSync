@@ -25,6 +25,9 @@ const home = () => {
           <div>
             <Button>Let's Get Started</Button>
           </div>
+          <div>
+            <h1 className="text-3xl font-bold underline ">Hello world!</h1>
+          </div>
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger>Is it accessible?</AccordionTrigger>
