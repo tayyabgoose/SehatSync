@@ -15,11 +15,7 @@ const home = () => {
         </div>
         <div className="title">We Help You Keep in Sync with Your Sehat!</div>
         <p className="lead">Never forget your medicines again.</p>
-        <p className="text-3xl font-bold underline">
-          Never forget your medicines again.
-        </p>
-        <Button>Button</Button>
-        <button className="cta">{"Let's Get Started"}</button>
+        <Button>Let&apos;s Get Started</Button>
       </div>
     </div>
   );
